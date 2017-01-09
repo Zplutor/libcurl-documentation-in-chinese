@@ -4,7 +4,7 @@
 void curl_easy_cleanup(CURL * handle);
 ```
 
-## 概述
+## 概要
 
 结束一个libcurl的easy句柄。
 
@@ -22,7 +22,7 @@ void curl_easy_cleanup(CURL * handle);
 
 > 备注
 >
-> * 由`curl_easy_setopt`的文档可知，7.17版本之前设置的字符串不会被复制，所以用户需要保留这些字符串。因此上面这句话只针对7.17之前的版本。
+> * 由`curl_easy_setopt`的文档可知，7.17版本之前设置的字符串不会被复制，用户需要自己保留这些字符串。因此上面这句话只针对7.17之前的版本。
 
 ## 返回值
 
