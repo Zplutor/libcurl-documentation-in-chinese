@@ -1,2 +1,3 @@
-# libcurl-documentation-in-chinese
-libcurl文档的中文翻译。
+# libcurl文档中文版
+
+libcurl文档中文版
