@@ -24,11 +24,11 @@ CURLcode curl_easy_setopt(CURL *handle, CURLoption option, parameter);
 
 ### CURLOPT_VERBOSE
 
-显示详细的信息。
+显示详细的信息。参考[CURLOPT_VERBOSE](../option/CURLOPT_VERBOSE.md)。
 
 ### CURLOPT_HEADER
 
-在正文输出中包含头部。
+在正文输出中包含头部。参考[CURLOPT_HEADER](../option/CURLOPT_HEADER.md)。
 
 ### CURLOPT_NOPROGRESS
 
@@ -40,13 +40,13 @@ CURLcode curl_easy_setopt(CURL *handle, CURLoption option, parameter);
 
 ### CURLOPT_WILDCARDMATCH
 
-根据一个文件名匹配模式传输多个文件。
+根据一个文件名匹配模式传输多个文件。参考[CURLOPT_WILDCARDMATCH](../option/CURLOPT_WILDCARDMATCH.md)。
 
 ## 回调选项
 
 ### CURLOPT_WRITEFUNCTION
 
-写数据的回调。
+写数据的回调。参考[CURLOPT_WRITEFUNCTION](../option/CURLOPT_WRITEFUNCTION.md)。
 
 ### CURLOPT_WRITEDATA
 

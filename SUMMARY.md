@@ -10,4 +10,8 @@
 		* [curl_global_init](source/reference/function/curl_global_init.md)
 		* [curl_global_init_mem](source/reference/function/curl_global_init_mem.md)
 	* 选项
+		* [CURLOPT_HEADER](source/reference/option/CURLOPT_HEADER.md)
 		* [CURLOPT_NOPROGRESS](source/reference/option/CURLOPT_NOPROGRESS.md)
+		* [CURLOPT_VERBOSE](source/reference/option/CURLOPT_VERBOSE.md)
+		* [CURLOPT_WILDCARDMATCH](source/reference/option/CURLOPT_WILDCARDMATCH.md)
+		* [CURLOPT_WRITEFUNCTION](source/reference/option/CURLOPT_WRITEFUNCTION.md)
