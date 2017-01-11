@@ -36,7 +36,7 @@ CURLcode curl_easy_setopt(CURL *handle, CURLoption option, parameter);
 
 ### CURLOPT_NOSIGNAL
 
-不要安装信号处理器。
+不要安装信号处理器。参考[CURLOPT_NOSIGNAL](../option/CURLOPT_NOSIGNAL.md)。
 
 ### CURLOPT_WILDCARDMATCH
 
@@ -50,11 +50,11 @@ CURLcode curl_easy_setopt(CURL *handle, CURLoption option, parameter);
 
 ### CURLOPT_WRITEDATA
 
-传递给写数据回调的数据指针。
+传递给写数据回调的数据指针。参考[CURLOPT_WRITEDATA](../option/CURLOPT_WRITEDATA.md)。
 
 ### CURLOPT_READFUNCTION
 
-读数据的回调。
+读数据的回调。参考[CURLOPT_READFUNCTION](../option/CURLOPT_READFUNCTION.md)。
 
 ### CURLOPT_READDATA
 

@@ -12,6 +12,9 @@
 	* 选项
 		* [CURLOPT_HEADER](source/reference/option/CURLOPT_HEADER.md)
 		* [CURLOPT_NOPROGRESS](source/reference/option/CURLOPT_NOPROGRESS.md)
+		* [CURLOPT_NOSIGNAL](source/reference/option/CURLOPT_NOSIGNAL.md)
+		* [CURLOPT_READFUNCTION](source/reference/option/CURLOPT_READFUNCTION.md)
 		* [CURLOPT_VERBOSE](source/reference/option/CURLOPT_VERBOSE.md)
 		* [CURLOPT_WILDCARDMATCH](source/reference/option/CURLOPT_WILDCARDMATCH.md)
+		* [CURLOPT_WRITEDATA](source/reference/option/CURLOPT_WRITEDATA.md)
 		* [CURLOPT_WRITEFUNCTION](source/reference/option/CURLOPT_WRITEFUNCTION.md)
