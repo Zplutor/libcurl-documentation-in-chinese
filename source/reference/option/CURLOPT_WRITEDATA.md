@@ -14,7 +14,7 @@ CURLcode curl_easy_setopt(CURL *handle, CURLOPT_WRITEDATA, void *pointer);
 
 内部的`CURLOPT_WRITEFUNCTION`会把数据写到这个选项指定的FILE*，或者会写到stdout，如果这个选项还没有设置的话。
 
-如果你正在以win32 DLL的方式使用libcurl，而且你设置了该选项，那么你必须使用`CURLOPT_WRITEFUNCTION`，否则你会体验到程序崩溃。
+如果你正在以win32 DLL的方式使用libcurl，而且你设置了该选项，那么你必须使用`CURLOPT_WRITEFUNCTION`，否则你会遇到程序崩溃。
 
 > 疑问
 >

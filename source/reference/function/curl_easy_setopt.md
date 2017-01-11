@@ -58,27 +58,27 @@ CURLcode curl_easy_setopt(CURL *handle, CURLoption option, parameter);
 
 ### CURLOPT_READDATA
 
-传递给读数据回调的数据指针。
+传递给读数据回调的数据指针。参考[CURLOPT_READDATA](../option/CURLOPT_READDATA.md)。
 
 ### CURLOPT_IOCTLFUNCTION
 
-I/O操作的回调。
+I/O操作的回调。参考[CURLOPT_IOCTLFUNCTION](../option/CURLOPT_IOCTLFUNCTION.md)。
 
 ### CURLOPT_IOCTLDATA
 
-传递给I/O操作回调的数据指针。
+传递给I/O操作回调的数据指针。参考[CURLOPT_IOCTLDATA](../option/CURLOPT_IOCTLDATA.md)。
 
 ### CURLOPT_SEEKFUNCTION
 
-重定位操作的回调。
+重定位操作的回调。参考[CURLOPT_SEEKFUNCTION](../option/CURLOPT_SEEKFUNCTION.md)。
 
 ### CURLOPT_SEEKDATA
 
-传递给重定位操作回调的数据指针。
+传递给重定位操作回调的数据指针。参考[CURLOPT_SEEKDATA](../option/CURLOPT_SEEKDATA.md)。
 
 ### CURLOPT_SOCKOPTFUNCTION
 
-`sockopt`操作的回调。
+`sockopt`操作的回调。参考[CURLOPT_SOCKOPTFUNCTION](../option/CURLOPT_SOCKOPTFUNCTION.md)。
 
 ### CURLOPT_SOCKOPTDATA
 
