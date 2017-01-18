@@ -18,6 +18,10 @@ CURLcode curl_easy_setopt(CURL *handle, CURLOPT_CLOSESOCKETFUNCTION, closesocket
 
 `clientp`指针通过`CURLOPT_CLOSESOCKETDATA`来设置。`item`是libcurl想要关闭的套接字。
 
+> 备注
+>
+> * 如果使用了multi接口，必须确保这个回调在multi句柄销毁之前一直有效。因为multi接口的连接池会接管套接字的生命周期，即使在easy句柄销毁之后，由它创建的套接字仍然可能存在。
+
 ## 默认值
 
 默认情况下，libcurl使用标准的套接字关闭函数。
