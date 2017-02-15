@@ -12,6 +12,8 @@
 	* 选项
 		* [CURLOPT_CLOSESOCKETDATA](source/reference/option/CURLOPT_CLOSESOCKETDATA.md)
 		* [CURLOPT_CLOSESOCKETFUNCTION](source/reference/option/CURLOPT_CLOSESOCKETFUNCTION.md)
+		* [CURLOPT_DEBUGDATA](source/reference/option/CURLOPT_DEBUGDATA.md)
+		* [CURLOPT_DEBUGFUNCTION](source/reference/option/CURLOPT_DEBUGFUNCTION.md)
 		* [CURLOPT_HEADER](source/reference/option/CURLOPT_HEADER.md)
 		* [CURLOPT_HEADERDATA](source/reference/option/CURLOPT_HEADERDATA.md)
 		* [CURLOPT_HEADERFUNCTION](source/reference/option/CURLOPT_HEADERFUNCTION.md)
