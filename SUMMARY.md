@@ -31,6 +31,7 @@
 		* [CURLOPT_SEEKFUNCTION](source/reference/option/CURLOPT_SEEKFUNCTION.md)
 		* [CURLOPT_SOCKOPTDATA](source/reference/option/CURLOPT_SOCKOPTDATA.md)
 		* [CURLOPT_SOCKOPTFUNCTION](source/reference/option/CURLOPT_SOCKOPTFUNCTION.md)
+		* [CURLOPT_SSL_CTX_FUNCTION](source/reference/option/CURLOPT_SSL_CTX_FUNCTION.md)
 		* [CURLOPT_VERBOSE](source/reference/option/CURLOPT_VERBOSE.md)
 		* [CURLOPT_WILDCARDMATCH](source/reference/option/CURLOPT_WILDCARDMATCH.md)
 		* [CURLOPT_WRITEDATA](source/reference/option/CURLOPT_WRITEDATA.md)
