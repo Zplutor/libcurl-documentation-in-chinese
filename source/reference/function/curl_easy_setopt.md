@@ -174,11 +174,11 @@ RTSP交叉数据回调。参考[CURLOPT_INTERLEAVEFUNCTION](../option/CURLOPT_IN
 
 ### CURLOPT_FNMATCH_FUNCTION
 
-通配符匹配的回调。
+通配符匹配的回调。参考[CURLOPT_FNMATCH_FUNCTION](../option/CURLOPT_FNMATCH_FUNCTION.md)。
 
 ### CURLOPT_FNMATCH_DATA
 
-传递给通配符匹配回调的数据指针。
+传递给通配符匹配回调的数据指针。参考[CURLOPT_FNMATCH_DATA](../option/CURLOPT_FNMATCH_DATA.md)。
 
 ## 错误选项
 

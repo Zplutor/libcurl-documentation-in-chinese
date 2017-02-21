@@ -20,6 +20,8 @@
 		* [CURLOPT_CONV_TO_NETWORK_FUNCTION](source/reference/option/CURLOPT_CONV_TO_NETWORK_FUNCTION.md)
 		* [CURLOPT_DEBUGDATA](source/reference/option/CURLOPT_DEBUGDATA.md)
 		* [CURLOPT_DEBUGFUNCTION](source/reference/option/CURLOPT_DEBUGFUNCTION.md)
+		* [CURLOPT_FNMATCH_DATA](source/reference/option/CURLOPT_FNMATCH_DATA.md)
+		* [CURLOPT_FNMATCH_FUNCTION](source/reference/option/CURLOPT_FNMATCH_FUNCTION.md)
 		* [CURLOPT_HEADER](source/reference/option/CURLOPT_HEADER.md)
 		* [CURLOPT_HEADERDATA](source/reference/option/CURLOPT_HEADERDATA.md)
 		* [CURLOPT_HEADERFUNCTION](source/reference/option/CURLOPT_HEADERFUNCTION.md)
