@@ -3,15 +3,15 @@
 ```
 CURLcode conv_callback(char *ptr, size_t length);
  
-CURLcode curl_easy_setopt(CURL *handle, CURLOPT_CONV_TO_NETWORK_FUNCTION,
+CURLcode curl_easy_setopt(CURL *handle, CURLOPT_CONV_FROM_NETWORK_FUNCTION,
                           conv_callback);
 ```
 
 ## 概要
 
-把数据从本机编码转换成网络编码。
+把数据从网络编码转换成本机编码。
 
-## 概要
+## 详情
 
 传入一个指向你的回调函数的指针，该函数应该符合上面显示的原型。
 
@@ -19,7 +19,7 @@ CURLcode curl_easy_setopt(CURL *handle, CURLOPT_CONV_TO_NETWORK_FUNCTION,
 
 被转换的数据位于由`ptr`参数指向的的缓冲区中。转换的数据大小由`length`参数指定。转换后的数据会覆盖由`ptr`参数指向的缓冲区中的输入数据。当转换成功的时候，必须返回`CURLE_OK`。当发生错误时，应该返回一个在`curl.h`中定义的`CURLcode`返回值，例如`CURLE_CONV_FAILED`。
 
-`CURLOPT_CONV_TO_NETWORK_FUNCTION`从本机编码转换成网络编码。它在通过网络发送命令或者ASCII数据时被使用。
+`CURLOPT_CONV_FROM_NETWORK_FUNCTION`从网络编码转换成本机编码。它在通过网络接收命令或者ASCII数据时被使用。
 
 如果你设置回调指针为NULL，或者根本不设置它，那么内置的libcurl iconv函数会被使用。如果在构建libcurl的时候没有定义`HAVE_ICONV`，而且没有设置回调，转换的时候会返回`CURLE_CONV_REQD`错误码。
 
@@ -39,8 +39,7 @@ libcurl的iconv代码会像下面那样设置默认的网络和UTF8编码集的�
 如果它们在你的系统上不一样，你需要重写这些定义。
 
 > 备注
-> * 如果要使用libcurl内置的iconv函数，需要定义`HAVE_ICONV`，并且通过`CURL_ICONV_CODESET_OF_HOST`和`CURL_ICONV_CODESET_OF_NETWORK`定义恰当的本机编码和网络编码。
-> * 设置这个回调可以替换内置的iconv函数，本机编码和网络编码由回调的实现来决定。
+> * 这个选项是[CURLOPT_CONV_TO_NETWORK_FUNCTION](CURLOPT_CONV_TO_NETWORK_FUNCTION.md)的反过程，可以参考该选项的备注。
 
 ## 默认值
 
