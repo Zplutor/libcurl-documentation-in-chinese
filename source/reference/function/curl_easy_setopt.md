@@ -184,13 +184,30 @@ RTSP交叉数据回调。参考[CURLOPT_INTERLEAVEFUNCTION](../option/CURLOPT_IN
 
 ### CURLOPT_ERRORBUFFER
 
-错误消息缓冲区。
+错误消息缓冲区。参考[CURLOPT_ERRORBUFFER](../option/CURLOPT_ERRORBUFFER.md)。
 
 ### CURLOPT_STDERR
 
-替换stderr的流。
+替换stderr的流。参考[CURLOPT_STDERR](../option/CURLOPT_STDERR.md)。
 
 ### CURLOPT_FAILONERROR
 
-在出现HTTP的4xx错误时失败。
+在出现HTTP的4xx错误时失败。参考[CURLOPT_FAILONERROR](../option/CURLOPT_FAILONERROR.md)。
 
+## 网络选项
+
+### CURLOPT_URL
+
+用来执行的URL。参考[CURLOPT_URL](../option/CURLOPT_URL.md)。
+
+### CURLOPT_PATH_AS_IS
+
+禁止压缩路径中的`/../`和`/./`序列。参考[CURLOPT_PATH_AS_IS](../option/CURLOPT_PATH_AS_IS.md)。
+
+### CURLOPT_PROTOCOLS
+
+设置允许使用的协议。参考[CURLOPT_PROTOCOLS](../option/CURLOPT_PROTOCOLS.md)。
+
+### CURLOPT_REDIR_PROTOCOLS
+
+允许重定向的协议。参考[CURLOPT_REDIR_PROTOCOLS](../option/CURLOPT_REDIR_PROTOCOLS.md)。
