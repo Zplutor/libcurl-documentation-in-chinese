@@ -38,7 +38,7 @@
 		* [CURLOPT_PATH_AS_IS](source/reference/option/CURLOPT_PATH_AS_IS.md)
 		* [CURLOPT_PROGRESSDATA](source/reference/option/CURLOPT_PROGRESSDATA.md)
 		* [CURLOPT_PROGRESSFUNCTION](source/reference/option/CURLOPT_PROGRESSFUNCTION.md)
-		* [CURLOPT_PROTOCOLS](source/reference/option/CURLOPT_PROTOCOLS.md)。
+		* [CURLOPT_PROTOCOLS](source/reference/option/CURLOPT_PROTOCOLS.md)
 		* [CURLOPT_READDATA](source/reference/option/CURLOPT_READDATA.md)
 		* [CURLOPT_READFUNCTION](source/reference/option/CURLOPT_READFUNCTION.md)
 		* [CURLOPT_REDIR_PROTOCOLS](source/reference/option/CURLOPT_REDIR_PROTOCOLS.md)
