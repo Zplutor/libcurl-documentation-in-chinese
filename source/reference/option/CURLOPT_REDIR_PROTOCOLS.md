@@ -10,7 +10,7 @@ CURLcode curl_easy_setopt(CURL *handle, CURLOPT_REDIR_PROTOCOLS, long bitmask);
 
 ## 详情
 
-传入一个`long`，该参数持有`CURLPROTO_*`定义的位掩码。如果使用了该选项，在`CURLOPT_FOLLOWLOCATION`启用的情况下，这个位掩码限制了libcurl在传输时可以跟随重定向的协议。这允许你限制特定的传输只能在使用指定协议子集时进行重定向。默认情况下libcurl允许所有的协议，除了FILE和SCP。
+传入一个`long`，该参数持有`CURLPROTO_*`定义的位掩码。如果使用了该选项，在`CURLOPT_FOLLOWLOCATION`启用的情况下，这个位掩码限制了libcurl在传输时可以跟随重定向的协议。这允许你限制特定的传输只能在使用指定协议子集时进行重定向。默认情况下libcurl允许所有的协议，除了FILE和SCP。
 
 下面是可用的协议定义：
 ```
