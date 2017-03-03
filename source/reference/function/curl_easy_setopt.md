@@ -198,7 +198,7 @@ RTSP交叉数据回调。参考[CURLOPT_INTERLEAVEFUNCTION](../option/CURLOPT_IN
 
 ### CURLOPT_URL
 
-用来执行的URL。参考[CURLOPT_URL](../option/CURLOPT_URL.md)。
+设置使用的URL。参考[CURLOPT_URL](../option/CURLOPT_URL.md)。
 
 ### CURLOPT_PATH_AS_IS
 
